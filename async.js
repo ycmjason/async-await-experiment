@@ -1,4 +1,5 @@
 function getSomething(){
+  // A function to simulate some asynchronous functions, used a simple timeout for this.
   return new Promise((res, rej) => {
     setTimeout(function(){
       res('something');
